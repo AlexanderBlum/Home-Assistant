@@ -1,0 +1,277 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "92ca133aed13461198446d58aad93854",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "AccessoryIP": "192.168.1.208",
+                    "AccessoryLTPK": "b4299eeaeffe9093f58c06a124b3c96e5fbcd3b2644a7ce22a584059aa971df4",
+                    "AccessoryPairingID": "12:86:35:88:2F:94",
+                    "AccessoryPort": 80,
+                    "Connection": "IP",
+                    "iOSDeviceLTPK": "d159d175ad2fa4e731b91ee4479b92c4e3685ced60b41c58872049570c8d2a0d",
+                    "iOSDeviceLTSK": "de0a2f3c071ceba1a727baa414aca4bd7d446650ba73a186bf34874283a74459",
+                    "iOSPairingId": "2ae96ed8-a55d-4158-ba01-65d29dda1d28"
+                },
+                "domain": "homekit_controller",
+                "entry_id": "b551f4c4220448e79445f40e07f01f7b",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "iHome SmartPlug-7693F1",
+                "unique_id": "12:86:35:88:2f:94",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "e9d02c4161db4a2d8786904a7fb6228f",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "eedb93b332804336bceddad0761d0b80",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant iOS",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dU9hg-GobK0JtktdOzudl3:APA91bG5GRF8ejNqZQdOmZ3J_KMdCXqygEXdJtJAwrYSdK9ITOXjoGikgnzo3jcZd8_PNvHcfyWH6cAPmPRs8fz07dbRr0gdPXlvLfIDQJBOGMJDCkfIFgI1v1PiiOOZILmpV2EGWYk_",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2020.4.1 (1)",
+                    "device_id": "e945aa31a8d94bd1b029b5351a81c254",
+                    "device_name": "Elisabeth Blum",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X\u0280",
+                    "os_name": "iOS",
+                    "os_version": "13.5.1",
+                    "secret": "12050e3ae958ef5f8f74b1bae00898228acbca2b8e3482b823dddf0370efe871",
+                    "supports_encryption": true,
+                    "user_id": "7404869599864fe0b49851c9ceb48833",
+                    "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+                },
+                "domain": "mobile_app",
+                "entry_id": "06654dc440b047809ac4032d1db310fd",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": true
+                },
+                "title": "Elisabeth Blum",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "d1d93ebfeb634f1b843e326d441048dd"
+                },
+                "domain": "cast",
+                "entry_id": "76a6ad3bdad8418aaee13d12b77da0da",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "c3eo8fr1Mk6HoJaR4fAWP8:APA91bHfwGAJnfuhQ_nJdS_21soGexnz-C9VYjSEfbrN1tNUvE2rltEGoqF80xfHU4IXekSPeijg5HiyuAff672JXEkAzdTLT2NmuV1rbHquZUQkIS-F2PWBTWWGmf1pAWTk1WVWs-Mp",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2020.4.1 (1)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeYYyU8Er0c6XvDPyomaPl5pBoQaqfq-Pe42le3qarzxAUAbtwVeQTgC6wZA01k8J_3DAAczYvL5Tw3k-EWQNBoz6ZVQmiTPgdXaJnMDC35QKu7_6m_e7g8RXvXFWRyE6FNiLGF1IjR7VR8uBe_yPo395V14IXJN3kFIp8JBfL2QI3Z64=",
+                    "device_id": "cbe9a9e8875e4ce691115c4e35291dba",
+                    "device_name": "Alexander\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.5",
+                    "secret": "73783b93ca5bf2397a0f4d24d96d05a27ebda94d63c7db40214bd8dd1509a97b",
+                    "supports_encryption": true,
+                    "user_id": "7404869599864fe0b49851c9ceb48833",
+                    "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+                },
+                "domain": "mobile_app",
+                "entry_id": "0a829e0bb0af4f7aa00b35b9b0d06062",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Alexander\u2019s iPhone",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "appdaemon": false,
+                    "python_script": false,
+                    "sidepanel_icon": "mdi:alpha-c-box",
+                    "sidepanel_title": "HACS",
+                    "theme": false,
+                    "token": "1c9ee4119357bbb477dd6cb2d0cc957dcc803798"
+                },
+                "domain": "hacs",
+                "entry_id": "09701611936a445393d37f189e701118",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "garagedoor.local",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "94462fb239a844bfb606c2b8f944e6bb",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "garagedoor",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.1.157",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "f1720e7569f448f7a8a3dd7fd4d5be46",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "temperature2",
+                "unique_id": "temperature2",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "name": "Home Assistant Bridge",
+                    "port": 51827
+                },
+                "domain": "homekit",
+                "entry_id": "675ab208e99c4af7a00b295e913e97c4",
+                "options": {
+                    "auto_start": true,
+                    "entity_config": {},
+                    "filter": {
+                        "exclude_domains": [],
+                        "exclude_entities": [],
+                        "exclude_entity_globs": [],
+                        "include_domains": [],
+                        "include_entities": [],
+                        "include_entity_globs": []
+                    },
+                    "safe_mode": false
+                },
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant Bridge:51827",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "password": "Zunky6943",
+                    "username": "blum.alexander.h@gmail.com"
+                },
+                "domain": "myq",
+                "entry_id": "d85e89ffcc9d4719bbc28b73818f75d5",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "blum.alexander.h@gmail.com",
+                "unique_id": "blum.alexander.h@gmail.com",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.1.159",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "a9a2a6f4b5ce46c3a7ea78bcd1865241",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "thermostat1",
+                "unique_id": "thermostat1",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

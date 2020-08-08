@@ -1,0 +1,76 @@
+#### morning automations ####
+# 1. turn on space heater every morning if one of us is home
+- id: 'Bathroom Morning Space Heater'
+  trigger:
+  - at: '6:20:00'
+    platform: time
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: 'device_tracker.alexanders_iphone'
+        state: 'home'
+      - condition: state
+        entity_id: 'device_tracker.elisabeth_blum'
+        state: 'home'  
+  action:
+  - service: switch.turn_on
+    entity_id: switch.space_heater
+  - delay: 
+      minutes: 120
+  - service: switch.turn_off
+    entity_id: switch.space_heater
+# 2. turn on chandelier every morning if one of us is home
+- id: 'Living Room Morning Lights'
+  trigger:
+  - at: '6:20:00'
+    platform: time
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: 'device_tracker.alexanders_iphone'
+        state: 'home'
+      - condition: state
+        entity_id: 'device_tracker.elisabeth_blum'
+        state: 'home'  
+  action:
+  - entity_id: switch.chandelier
+    service: switch.turn_on
+  - delay: 
+      minutes: 80
+  - entity_id: switch.chandelier
+    service: switch.turn_off    
+#### evening automations ####    
+# 1. turn on dehumidifier every eveninging if one of us is home
+- id: 'Bedroom Humidifier'
+  trigger:
+  - at: '21:30:00'
+    platform: time
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: 'device_tracker.alexanders_iphone'
+        state: 'h'
+      - condition: state
+        entity_id: 'device_tracker.elisabeth_blum'
+        state: 'he'     
+  action:
+  - entity_id: switch.humidifier
+    service: switch.turn_on
+  - delay:
+      hours: 7
+  - entity_id: switch.humidifier
+    service: switch.turn_off
+#### location based automations ####
+- id: 'EPO Leave Work'
+  trigger:
+    platform: state
+    entity_id: 'device_tracker.elisabeth_blum'
+    from: 'epo_work'
+  action:
+    service: notify.mobile_app_alexanders_iphone
+    data:
+      message: "EPO has left work and is on her way home"
+#### sensor based automations

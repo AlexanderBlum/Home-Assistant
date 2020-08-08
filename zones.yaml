@@ -1,0 +1,13 @@
+- name: home
+  latitude: 35.311919
+  longitude: -80.798033
+  radius: 100
+  icon: mdi:home
+- name: blum_work
+  latitude: 35.311816
+  longitude: -80.741251
+  radius: 100 
+- name: epo_work
+  latitude: 35.336310
+  longitude: -80.833099
+  radius: 100   

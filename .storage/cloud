@@ -1,0 +1,52 @@
+{
+    "data": {
+        "alexa_enabled": false,
+        "alexa_entity_configs": {},
+        "cloud_user": "d5ef8949a4bf45a8a711008aa4e21116",
+        "cloudhooks": {
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d": {
+                "cloudhook_id": "1e39b72416af4aaebd898e61fedea059",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeYYyU8Er0c6XvDPyomaPl5pBoQaqfq-Pe42le3qarzxAUAbtwVeQTgC6wZA01k8J_3DAAczYvL5Tw3k-EWQNBoz6ZVQmiTPgdXaJnMDC35QKu7_6m_e7g8RXvXFWRyE6FNiLGF1IjR7VR8uBe_yPo395V14IXJN3kFIp8JBfL2QI3Z64=",
+                "managed": true,
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            }
+        },
+        "google_enabled": true,
+        "google_entity_configs": {
+            "group.all_automations": {
+                "should_expose": false
+            },
+            "group.all_devices": {
+                "should_expose": false
+            },
+            "group.all_switches": {
+                "should_expose": false
+            },
+            "group.living_room": {
+                "should_expose": false
+            },
+            "group.living_room_lights": {
+                "should_expose": false
+            },
+            "group.master_bedroom": {
+                "should_expose": false
+            },
+            "media_player.kitchen_speaker": {
+                "should_expose": false
+            },
+            "media_player.master_bedroom_speaker": {
+                "should_expose": false
+            },
+            "switch.foyer_light": {
+                "should_expose": false
+            }
+        },
+        "google_local_webhook_id": "f25812934cedbaebbc332dd4d33f3f44dbd579d31bb42eccf87ce163a6cabf18",
+        "google_report_state": true,
+        "google_secure_devices_pin": "1686",
+        "remote_enabled": true,
+        "username": "11dd477a-ebc5-4e18-945b-51d84f105766"
+    },
+    "key": "cloud",
+    "version": 1
+}

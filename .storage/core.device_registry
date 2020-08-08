@@ -1,0 +1,323 @@
+{
+    "data": {
+        "deleted_devices": [],
+        "devices": [
+            {
+                "area_id": "f757d9525aa8458eab9c6de4226afc04",
+                "config_entries": [
+                    "b551f4c4220448e79445f40e07f01f7b"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d926e48bbdc54c96aa292b359d0b33f8",
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "12:86:35:88:2F:94"
+                    ],
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "02D8P1693F1"
+                    ]
+                ],
+                "manufacturer": "SDI Technologies",
+                "model": "iSP6X",
+                "name": "iHome SmartPlug-7693F1",
+                "name_by_user": null,
+                "sw_version": "0.3.10",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "06654dc440b047809ac4032d1db310fd"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "c8bc7e1ecb7d4a85b0b48ba61e4f97a8",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "e945aa31a8d94bd1b029b5351a81c254"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X\u0280",
+                "name": "Elisabeth Blum",
+                "name_by_user": null,
+                "sw_version": "13.5.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "06654dc440b047809ac4032d1db310fd"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "91bf1d5b4e60430f9cdf9bc64ee39e79",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+                    ],
+                    [
+                        "device_id",
+                        "e945aa31a8d94bd1b029b5351a81c254"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X\u0280",
+                "name": "Elisabeth Blum",
+                "name_by_user": null,
+                "sw_version": "13.5.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": "298386bd36a643a0833fa104649b9379",
+                "config_entries": [
+                    "76a6ad3bdad8418aaee13d12b77da0da"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d9f0d174b2c3468597986629f255f4b8",
+                "identifiers": [
+                    [
+                        "cast",
+                        "42c42e605c2edcb280b6fcd63ad65be8"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Kitchen speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "f757d9525aa8458eab9c6de4226afc04",
+                "config_entries": [
+                    "76a6ad3bdad8418aaee13d12b77da0da"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "a4fc58233d364f1498e3a652811d7ffe",
+                "identifiers": [
+                    [
+                        "cast",
+                        "f5f7bab68df672caf1b5aceb32be3f85"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Master Bedroom speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "0a829e0bb0af4f7aa00b35b9b0d06062"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "60473098c8334e83ba7f69b62749d8e0",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "cbe9a9e8875e4ce691115c4e35291dba"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Alexander\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "13.5",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "0a829e0bb0af4f7aa00b35b9b0d06062"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "0b4604cc82884bdb8e961fdce86afb01",
+                "identifiers": [
+                    [
+                        "device_id",
+                        "cbe9a9e8875e4ce691115c4e35291dba"
+                    ],
+                    [
+                        "webhook_id",
+                        "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Alexander\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "13.5",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "09701611936a445393d37f189e701118"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "1853a83996724b979b42156bc472d643",
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "name_by_user": null,
+                "sw_version": "0.21.6",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "94462fb239a844bfb606c2b8f944e6bb"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "4c:11:ae:00:1e:2d"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "e41ead1936004098b0aa489d690fb04a",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "PLATFORMIO_ESP01_1M",
+                "name": "garagedoor",
+                "name_by_user": null,
+                "sw_version": "1.14.4 (Jun 30 2020, 10:07:18)",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "f1720e7569f448f7a8a3dd7fd4d5be46"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "f0:08:d1:c7:86:74"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "c894f9bfa218406f8f5c970dd1e2591e",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "MH ET LIVE ESP32DevKIT",
+                "name": "temperature2",
+                "name_by_user": null,
+                "sw_version": "1.14.5 (Aug  7 2020, 13:00:10)",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "675ab208e99c4af7a00b295e913e97c4"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "af:4e:05:ff:28:19"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "bf4a138128fa4ba3bd990a8f6a752fcd",
+                "identifiers": [
+                    [
+                        "homekit",
+                        "675ab208e99c4af7a00b295e913e97c4",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant HomeKit Bridge",
+                "name": "Home Assistant Bridge",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "d85e89ffcc9d4719bbc28b73818f75d5"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "e99e3e78fad8413ab0a9f1cb15f1eca0",
+                "identifiers": [
+                    [
+                        "myq",
+                        "GW0E00179D0B"
+                    ]
+                ],
+                "manufacturer": "The Chamberlain Group Inc.",
+                "model": "Chamberlain Wi-Fi GDO DC 3/4HP",
+                "name": "Blum Garage MyQ Gateway",
+                "name_by_user": null,
+                "sw_version": "3.8",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "d85e89ffcc9d4719bbc28b73818f75d5"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "351904fb28a944b3b13c4bc03dabf40e",
+                "identifiers": [
+                    [
+                        "myq",
+                        "CG086041E3F9"
+                    ]
+                ],
+                "manufacturer": "The Chamberlain Group Inc.",
+                "model": "LiftMaster Wi-Fi GDO DC w/Battery Backup",
+                "name": "Blum Garage",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "e99e3e78fad8413ab0a9f1cb15f1eca0"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "a9a2a6f4b5ce46c3a7ea78bcd1865241"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "f0:08:d1:c9:1d:5c"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "d52daf6c8a0243fa9843879a6eadc874",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "MH ET LIVE ESP32DevKIT",
+                "name": "thermostat1",
+                "name_by_user": null,
+                "sw_version": "1.14.5 (Aug  7 2020, 12:12:26)",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

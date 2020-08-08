@@ -1,0 +1,113 @@
+esphome:
+  name: garagedoor
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: ATTVdiTumS
+  password: "%rbbuv+s=a+y"
+
+# Enable logging
+logger:
+  # esp8266_store_log_strings_in_flash: False
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+globals:
+  - id: door_state
+    type: int
+    initial_value: '0'
+    restore_value: no
+    # possible values are:
+    # open    = '5'
+    # opening = '4'
+    # closed  = '3'
+    # closing = '2'
+    # halfway = '1'
+    # unknown = '0'
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO04
+      mode: INPUT_PULLUP
+      # when switch is closed the door is closed
+      inverted: True
+    name: "Garage Door Closed Reed Switch"
+    device_class: garage_door    
+    id: closed_sensor
+  - platform: gpio
+    pin:
+      number: GPIO014
+      mode: INPUT_PULLUP
+      # when switch is closed the door is closed
+      inverted: True
+    name: "Garage Door Open Reed Switch"
+    device_class: garage_door    
+    id: open_sensor
+
+switch:
+  - platform: gpio
+    pin: GPIO12
+    id: door_switch
+  - platform: template
+    icon: "mdi:arrow-up-down-bold-outline"
+    name: "Blum Garage Control Relay"
+
+cover:
+  - platform: template
+    name: "Garage Door"
+    lambda: !lambda |-
+      // delay(500);
+      if (id(closed_sensor).state) {
+        id(door_state) = 3; // door closed
+        //ESP_LOGD("my_log", "Door state is closed");
+        id(garage_door).position = COVER_CLOSED;
+        id(garage_door).publish_state();
+        return COVER_CLOSED;
+      } 
+      else if (id(open_sensor).state) {
+        id(door_state) = 5; // door open
+        //ESP_LOGD("my_log", "Door state is open");
+        id(garage_door).position = COVER_OPEN;
+        id(garage_door).publish_state();
+        return COVER_OPEN;
+      }
+      else {
+        id(door_state) = 0; // unknown
+        //ESP_LOGD("my_log", "Door state is unknown");
+      }
+
+    id: garage_door
+    device_class: garage
+    assumed_state: true
+    open_action:
+      # Cancel any previous action
+      # - switch.turn_off: door_switch
+      # Turn the OPEN switch on briefly
+      - switch.turn_on: door_switch
+      - delay: 100 ms
+      - switch.turn_off: door_switch
+    close_action:
+        # Cancel any previous action
+      - switch.turn_off: door_switch
+      - delay: 100 ms
+      - switch.turn_on: door_switch
+      - wait_until:
+          binary_sensor.is_on: closed_sensor
+      - switch.turn_off: door_switch
+      - delay: 1000 ms
+      - switch.turn_on: door_switch
+      - delay: 100 ms
+      - switch.turn_off: door_switch
+    stop_action:
+      # Cancel any previous action
+      - switch.turn_off: door_switch
+      - delay: 500ms
+      # Turn the OPEN switch on briefly
+      - switch.turn_on: door_switch
+      - delay: 500ms
+      - switch.turn_off: door_switch

@@ -1,0 +1,660 @@
+{
+    "data": {
+        "config": {
+            "background": "var(--background-image)",
+            "cch": null,
+            "custom_header": {
+                "compact_mode": true
+            },
+            "title": "Blum Home",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.alexanders_iphone",
+                                    "icon": "mdi:home"
+                                },
+                                {
+                                    "entity": "device_tracker.elisabeth_blum",
+                                    "icon": "mdi:home"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Presence",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "zone.blum_work"
+                                },
+                                {
+                                    "entity": "zone.epo_work"
+                                },
+                                {
+                                    "entity": "zone.home"
+                                },
+                                {
+                                    "entity": "device_tracker.alexanders_iphone"
+                                },
+                                {
+                                    "entity": "device_tracker.elisabeth_blum"
+                                }
+                            ],
+                            "geo_location_sources": [],
+                            "hours_to_show": 0,
+                            "type": "map"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "switch.blum_light",
+                                            "icon": "mdi:lamp"
+                                        },
+                                        {
+                                            "entity": "switch.epo_light",
+                                            "icon": "mdi:lamp"
+                                        },
+                                        {
+                                            "entity": "switch.humidifier",
+                                            "icon": "mdi:water-outline"
+                                        },
+                                        {
+                                            "entity": "switch.space_heater",
+                                            "icon": "mdi:radiator"
+                                        },
+                                        {
+                                            "entity": "switch.overhead_fan",
+                                            "icon": "mdi:fan"
+                                        },
+                                        {
+                                            "entity": "switch.overhead_light",
+                                            "icon": "mdi:ceiling-light"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Master Bedroom",
+                                    "type": "entities"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "switch.chandelier",
+                                            "icon": "mdi:ceiling-light"
+                                        },
+                                        {
+                                            "entity": "switch.porch_light",
+                                            "icon": "mdi:spotlight-beam"
+                                        },
+                                        {
+                                            "entity": "switch.lamp",
+                                            "icon": "mdi:lamp"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Living Room",
+                                    "type": "entities"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "detail": 2,
+                                    "entity": "sensor.bedroom_temperature",
+                                    "graph": "line",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "detail": 2,
+                                    "entity": "sensor.office_temperature",
+                                    "graph": "line",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "detail": 2,
+                                    "entity": "sensor.bathroom_temperature",
+                                    "graph": "line",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "detail": 2,
+                                    "entity": "sensor.dining_room_temperature",
+                                    "graph": "line",
+                                    "type": "sensor"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.kitchen_speaker",
+                                    "show_info": false,
+                                    "type": "media-control"
+                                },
+                                {
+                                    "entity": "media_player.master_bedroom_speaker",
+                                    "type": "media-control"
+                                }
+                            ],
+                            "type": "horizontal-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "cover.blum_garage"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "content": "<center><strong>Master Bedroom</strong></center>",
+                                    "type": "markdown"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "switch.blum_light",
+                                            "icon": "mdi:lamp",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "switch.epo_light",
+                                            "icon": "mdi:lamp",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "switch.overhead_fan",
+                                            "icon": "mdi:fan",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "switch.overhead_light",
+                                            "icon": "mdi:ceiling-light",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "switch.space_heater",
+                                            "icon": "mdi:radiator",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "switch.humidifier",
+                                            "icon": "mdi:water-outline",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "content": "<center><strong>Downstairs</strong></center>",
+                                    "type": "markdown"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "switch.chandelier",
+                                            "icon": "mdi:ceiling-light",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "switch.porch_light",
+                                            "icon": "mdi:spotlight-beam",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "switch.lamp",
+                                            "icon": "mdi:lamp",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "switch.foyer_light",
+                                            "icon": "mdi:ceiling-light",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "content": "<center><strong>Garage Door</strong></center>",
+                                    "type": "markdown"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "script.open_garage_door",
+                                            "icon": "mdi:arrow-expand-up",
+                                            "name": "Open Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.open_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "script.stop_garage_door",
+                                            "icon": "mdi:stop-circle-outline",
+                                            "name": "Stop Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.stop_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "script.close_garage_door",
+                                            "icon": "mdi:arrow-expand-down",
+                                            "name": "Close Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.close_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "binary_sensor.garage_door_open_reed_switch",
+                                            "icon": "mdi:garage-open",
+                                            "show_name": false,
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "binary_sensor.garage_door_closed_reed_switch",
+                                            "icon": "mdi:garage",
+                                            "show_name": false,
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:cellphone",
+                    "path": "bedroom-touch",
+                    "title": "Touch"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.battery_level_epo"
+                                },
+                                {
+                                    "entity": "sensor.battery_state_epo"
+                                },
+                                {
+                                    "entity": "sensor.ssid_epo"
+                                },
+                                {
+                                    "entity": "sensor.connection_type_epo"
+                                },
+                                {
+                                    "entity": "sensor.distance_epo"
+                                },
+                                {
+                                    "entity": "sensor.floors_ascended_epo"
+                                },
+                                {
+                                    "entity": "sensor.geocoded_location_epo"
+                                },
+                                {
+                                    "entity": "sensor.last_update_trigger_epo"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "EPO Phone",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.battery_level_alex"
+                                },
+                                {
+                                    "entity": "sensor.battery_state_alex"
+                                },
+                                {
+                                    "entity": "sensor.ssid_alex"
+                                },
+                                {
+                                    "entity": "sensor.connection_type_alex"
+                                },
+                                {
+                                    "entity": "sensor.distance_alex"
+                                },
+                                {
+                                    "entity": "sensor.floors_ascended_alex"
+                                },
+                                {
+                                    "entity": "sensor.geocoded_location_alex"
+                                },
+                                {
+                                    "entity": "sensor.last_update_trigger_alex"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Blum Phone",
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "switch.blum_light",
+                                            "icon": "mdi:lamp"
+                                        },
+                                        {
+                                            "entity": "switch.epo_light",
+                                            "icon": "mdi:lamp"
+                                        },
+                                        {
+                                            "entity": "switch.humidifier",
+                                            "icon": "mdi:water-outline"
+                                        },
+                                        {
+                                            "entity": "switch.space_heater",
+                                            "icon": "mdi:radiator"
+                                        },
+                                        {
+                                            "entity": "switch.overhead_fan",
+                                            "icon": "mdi:fan"
+                                        },
+                                        {
+                                            "entity": "switch.overhead_light",
+                                            "icon": "mdi:ceiling-light"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Master Bedroom",
+                                    "type": "entities"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "switch.chandelier",
+                                            "icon": "mdi:ceiling-light"
+                                        },
+                                        {
+                                            "entity": "switch.porch_light",
+                                            "icon": "mdi:spotlight-beam"
+                                        },
+                                        {
+                                            "entity": "switch.lamp",
+                                            "icon": "mdi:lamp"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Living Room",
+                                    "type": "entities"
+                                },
+                                {
+                                    "content": "<center><strong>Garage Door</strong></center>",
+                                    "type": "markdown"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "script.open_garage_door",
+                                            "icon": "mdi:arrow-expand-up",
+                                            "name": "Open Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.open_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "script.stop_garage_door",
+                                            "icon": "mdi:stop-circle-outline",
+                                            "name": "Stop Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.stop_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "script.close_garage_door",
+                                            "icon": "mdi:arrow-expand-down",
+                                            "name": "Close Door",
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_on",
+                                                "service_data": {
+                                                    "entity_id": "script.close_garage_door"
+                                                }
+                                            },
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "binary_sensor.garage_door_closed_reed_switch",
+                                            "icon": "mdi:garage",
+                                            "show_name": false,
+                                            "type": "entity-button"
+                                        },
+                                        {
+                                            "entity": "binary_sensor.garage_door_open_reed_switch",
+                                            "icon": "mdi:garage-open",
+                                            "show_name": false,
+                                            "type": "entity-button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.office_temperature"
+                                },
+                                {
+                                    "entity": "sensor.bedroom_temperature"
+                                },
+                                {
+                                    "entity": "sensor.bathroom_temperature"
+                                },
+                                {
+                                    "entity": "sensor.dining_room_temperature"
+                                }
+                            ],
+                            "hours_to_show": 10,
+                            "refresh_interval": 0,
+                            "type": "history-graph"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.office_humidity"
+                                },
+                                {
+                                    "entity": "sensor.bathroom_humidity"
+                                },
+                                {
+                                    "entity": "sensor.bedroom_humidity"
+                                },
+                                {
+                                    "entity": "sensor.dining_room_humidity"
+                                }
+                            ],
+                            "hours_to_show": 10,
+                            "refresh_interval": 0,
+                            "type": "history-graph"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.ac_switch"
+                                },
+                                {
+                                    "entity": "switch.heater_switch"
+                                },
+                                {
+                                    "entity": "switch.fan_switch"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.temp_controller",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.thermostat_temperature"
+                                }
+                            ],
+                            "title": "My Title",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:phone",
+                    "path": "phones",
+                    "title": "Phones"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "color_type": "card",
+                            "entity": "switch.blum_light",
+                            "name": "test",
+                            "state": [
+                                {
+                                    "color": "red",
+                                    "icon": "mdi:alert",
+                                    "value": "on"
+                                },
+                                {
+                                    "color": "green",
+                                    "icon": "mdi:shield-check",
+                                    "value": "off"
+                                }
+                            ],
+                            "type": "custom:button-card"
+                        },
+                        {
+                            "entity": "switch.blum_light",
+                            "type": "entity"
+                        }
+                    ],
+                    "icon": "mdi:ab-testing",
+                    "path": "testing",
+                    "title": "Testing"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

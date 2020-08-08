@@ -1,0 +1,103 @@
+####     master bedroom    ####
+# lights
+- platform: mqtt
+  name: "EPO Light"
+  state_topic: "master_bedroom/epo_light/stat/POWER"
+  command_topic: "master_bedroom/epo_light/cmnd/POWER"
+  availability_topic: "master_bedroom/epo_light/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+    
+- platform: mqtt
+  name: "Blum Light"
+  state_topic: "master_bedroom/blum_light/stat/POWER"
+  command_topic: "master_bedroom/blum_light/cmnd/POWER"
+  availability_topic: "master_bedroom/blum_light/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  
+- platform: mqtt
+  name: "Overhead Light"
+  state_topic: "master_bedroom/overhead_light_bedroom/stat/POWER"
+  command_topic: "master_bedroom/overhead_light_bedroom/cmnd/POWER"
+  availability_topic: "master_bedroom/overhead_light_bedroom/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+# appliances
+- platform: mqtt
+  name: "Overhead Fan"
+  state_topic: "master_bedroom/overhead_fan_bedroom/stat/POWER"
+  command_topic: "master_bedroom/overhead_fan_bedroom/cmnd/POWER"
+  availability_topic: "master_bedroom/overhead_fan_bedroom/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+ 
+- platform: mqtt
+  name: "Humidifier"
+  state_topic: "master_bedroom/humidifier/stat/POWER"
+  command_topic: "master_bedroom/humidifier/cmnd/POWER"
+  availability_topic: "master_bedroom/humidifier/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"     
+
+####     living room    ####
+- platform: mqtt
+  name: "Chandelier"
+  state_topic: "living_room/chandelier/stat/POWER"
+  command_topic: "living_room/chandelier/cmnd/POWER"
+  availability_topic: "living_room/chandelier/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  
+- platform: mqtt
+  name: "Lamp"
+  state_topic: "living_room/lamp/stat/POWER"
+  command_topic: "living_room/lamp/cmnd/POWER"
+  availability_topic: "living_room/lamp/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"   
+  
+- platform: mqtt
+  name: "Foyer Light"
+  state_topic: "living_room/foyer_light/stat/POWER"
+  command_topic: "living_room/foyer_light/cmnd/POWER"
+  availability_topic: "living_room/foyer_light/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"   
+  
+####    outside    ####
+- platform: mqtt
+  name: "Porch Light"
+  state_topic: "outside/porch_light/stat/POWER"
+  command_topic: "outside/porch_light/cmnd/POWER"
+  availability_topic: "outside/porch_light/tele/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"   

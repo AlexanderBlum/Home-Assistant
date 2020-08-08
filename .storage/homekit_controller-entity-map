@@ -1,0 +1,253 @@
+{
+    "data": {
+        "pairings": {
+            "12:86:35:88:2F:94": {
+                "accessories": [
+                    {
+                        "aid": 1,
+                        "services": [
+                            {
+                                "characteristics": [
+                                    {
+                                        "format": "string",
+                                        "iid": 2,
+                                        "maxLen": 64,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000023-0000-1000-8000-0026BB765291",
+                                        "value": "iHome SmartPlug-7693F1"
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 3,
+                                        "maxLen": 64,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000020-0000-1000-8000-0026BB765291",
+                                        "value": "SDI Technologies"
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 4,
+                                        "maxLen": 64,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000021-0000-1000-8000-0026BB765291",
+                                        "value": "iSP6X"
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 5,
+                                        "maxLen": 64,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000030-0000-1000-8000-0026BB765291",
+                                        "value": "02D8P1693F1"
+                                    },
+                                    {
+                                        "format": "bool",
+                                        "iid": 6,
+                                        "perms": [
+                                            "pw"
+                                        ],
+                                        "type": "00000014-0000-1000-8000-0026BB765291"
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 7,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000052-0000-1000-8000-0026BB765291",
+                                        "value": "0.3.10"
+                                    }
+                                ],
+                                "iid": 1,
+                                "stype": "accessory-information",
+                                "type": "0000003E-0000-1000-8000-0026BB765291"
+                            },
+                            {
+                                "characteristics": [
+                                    {
+                                        "ev": false,
+                                        "format": "bool",
+                                        "iid": 9,
+                                        "perms": [
+                                            "pr",
+                                            "pw",
+                                            "ev"
+                                        ],
+                                        "type": "00000025-0000-1000-8000-0026BB765291",
+                                        "value": false
+                                    },
+                                    {
+                                        "ev": false,
+                                        "format": "bool",
+                                        "iid": 10,
+                                        "perms": [
+                                            "pr",
+                                            "ev"
+                                        ],
+                                        "type": "00000026-0000-1000-8000-0026BB765291",
+                                        "value": true
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 25,
+                                        "maxLen": 64,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "00000023-0000-1000-8000-0026BB765291",
+                                        "value": "Outlet"
+                                    }
+                                ],
+                                "iid": 8,
+                                "stype": "outlet",
+                                "type": "00000047-0000-1000-8000-0026BB765291"
+                            },
+                            {
+                                "characteristics": [
+                                    {
+                                        "description": "FW Upgrade supported types",
+                                        "format": "string",
+                                        "iid": 12,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "151909D2-3802-11E4-916C-0800200C9A66",
+                                        "value": "url"
+                                    },
+                                    {
+                                        "description": "FW Upgrade URL",
+                                        "format": "string",
+                                        "iid": 13,
+                                        "maxLen": 256,
+                                        "perms": [
+                                            "pw"
+                                        ],
+                                        "type": "151909D1-3802-11E4-916C-0800200C9A66"
+                                    },
+                                    {
+                                        "description": "FW Upgrade Status",
+                                        "ev": false,
+                                        "format": "int",
+                                        "iid": 14,
+                                        "perms": [
+                                            "pr",
+                                            "ev"
+                                        ],
+                                        "type": "151909D6-3802-11E4-916C-0800200C9A66",
+                                        "value": 0
+                                    }
+                                ],
+                                "iid": 11,
+                                "stype": "Unknown Service: 151909D0-3802-11E4-916C-0800200C9A66",
+                                "type": "151909D0-3802-11E4-916C-0800200C9A66"
+                            },
+                            {
+                                "characteristics": [
+                                    {
+                                        "format": "string",
+                                        "iid": 16,
+                                        "maxLen": 256,
+                                        "perms": [
+                                            "pw"
+                                        ],
+                                        "type": "151BF016-3802-11E4-916C-0800200C9A66"
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 17,
+                                        "perms": [
+                                            "pw"
+                                        ],
+                                        "type": "151BF017-3802-11E4-916C-0800200C9A66"
+                                    },
+                                    {
+                                        "ev": false,
+                                        "format": "int",
+                                        "iid": 18,
+                                        "perms": [
+                                            "pr",
+                                            "ev"
+                                        ],
+                                        "type": "151BF014-3802-11E4-916C-0800200C9A66",
+                                        "value": 0
+                                    },
+                                    {
+                                        "format": "bool",
+                                        "iid": 19,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "151BF013-3802-11E4-916C-0800200C9A66",
+                                        "value": false
+                                    },
+                                    {
+                                        "format": "string",
+                                        "iid": 20,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "151BF018-3802-11E4-916C-0800200C9A66",
+                                        "value": "w8845-R0, RF878X, FP76, 14.76.36.p103"
+                                    }
+                                ],
+                                "iid": 15,
+                                "stype": "Unknown Service: 151BF015-3802-11E4-916C-0800200C9A66",
+                                "type": "151BF015-3802-11E4-916C-0800200C9A66"
+                            },
+                            {
+                                "characteristics": [
+                                    {
+                                        "description": "FW Upgrade supported types",
+                                        "format": "string",
+                                        "iid": 22,
+                                        "perms": [
+                                            "pr"
+                                        ],
+                                        "type": "151909D2-3802-11E4-916C-0800200C9A66",
+                                        "value": "url"
+                                    },
+                                    {
+                                        "description": "FW Upgrade URL",
+                                        "format": "string",
+                                        "iid": 23,
+                                        "maxLen": 256,
+                                        "perms": [
+                                            "pw"
+                                        ],
+                                        "type": "151909D1-3802-11E4-916C-0800200C9A66"
+                                    },
+                                    {
+                                        "description": "FW Upgrade Status",
+                                        "ev": false,
+                                        "format": "int",
+                                        "iid": 24,
+                                        "perms": [
+                                            "pr",
+                                            "ev"
+                                        ],
+                                        "type": "151909D6-3802-11E4-916C-0800200C9A66",
+                                        "value": 0
+                                    }
+                                ],
+                                "iid": 21,
+                                "stype": "Unknown Service: 151909D8-3802-11E4-916C-0800200C9A66",
+                                "type": "151909D8-3802-11E4-916C-0800200C9A66"
+                            }
+                        ]
+                    }
+                ],
+                "config_num": 2
+            }
+        }
+    },
+    "key": "homekit_controller-entity-map",
+    "version": 1
+}

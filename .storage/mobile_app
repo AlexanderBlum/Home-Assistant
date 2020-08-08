@@ -1,0 +1,1378 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ]
+                },
+                "icon": "mdi:human-male",
+                "name": "Activity",
+                "state": "Stationary",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery Level",
+                "state": 46,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 46
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "8c:7f:3b:68:d9:90",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "ATTVdiTumS",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.311798095703125,
+                        -80.79791564135189
+                    ],
+                    "Name": "6939 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6939",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6939 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 3910,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 4,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 5,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 5527,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "2e902a36f84b1a6ffa42419aa70c0acc2e9d2b4a60ecfe30697d7e9f448dd219"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ]
+                },
+                "icon": "mdi:help-circle",
+                "name": "Activity",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery Level",
+                "state": 46,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 46
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "8c:7f:3b:68:d9:90",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "ATTVdiTumS",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.311492919921875,
+                        -80.79768869099813
+                    ],
+                    "Name": "6924\u20136998 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6924\u20136998",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6924\u20136998 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Manual",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 3425,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 9,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 12,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 4324,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "2f4aaaa628be54bd44880dadd1cec605a694b989a94318ff862e20b806469f4a"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ]
+                },
+                "icon": "mdi:human-male",
+                "name": "Activity",
+                "state": "Stationary",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging",
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 68,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 68,
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "8c:7f:3b:68:d9:90",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_connectivity_sim_2": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 2",
+                "state": "N/A",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_2",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "ATTVdiTumS",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.31158447265625,
+                        -80.79779084410326
+                    ],
+                    "Name": "6925 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6925",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York",
+                    "Zones": [
+                        "Home"
+                    ]
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6925 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Significant Location Change",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 3079,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-up",
+                "name": "Floors Ascended",
+                "state": 7,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-down",
+                "name": "Floors Descended",
+                "state": 7,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 4668,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c_storage": {
+                "attributes": {
+                    "Available": "30.24 GB",
+                    "Available (Important)": "83.07 GB",
+                    "Available (Opportunistic)": "81.61 GB",
+                    "Total": "127.99 GB"
+                },
+                "icon": "mdi:database",
+                "name": "Storage",
+                "state": "63.77",
+                "type": "sensor",
+                "unique_id": "storage",
+                "unit_of_measurement": "% available",
+                "webhook_id": "31c95a15ece841fd6079bbbb698a7f22a991ee593b3923989ab19f37a7db943c"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ]
+                },
+                "icon": "mdi:help-circle",
+                "name": "Activity",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 63,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 63
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "8c:7f:3b:68:d9:90",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "ATTVdiTumS",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.311784053574385,
+                        -80.79791030448852
+                    ],
+                    "Name": "6939 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6939",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6939 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 4634,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 7,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 11,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 5964,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "621c1a757c18cc423c0f5381300085d379ddec96954bfd1b0a9d7c76eecf7b70"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ]
+                },
+                "icon": "mdi:help-circle",
+                "name": "Activity",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery Level",
+                "state": 78,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 78
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "BSSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_connectivity_connection_type": {
+                "added": true,
+                "attributes": {
+                    "Cellular Technology": "4G"
+                },
+                "icon": "mdi:signal",
+                "name": "Connection Type",
+                "state": "Cellular",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "SSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.311614990234375,
+                        -80.79773938280282
+                    ],
+                    "Name": "6924\u20136998 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6924\u20136998",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6924\u20136998 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Manual",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 2,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 80,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 98,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "6cbc854b8bb6ac14982c60a3829f93d78b4ae690363c35d47c14671c1e1f4bc8"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Walking"
+                    ]
+                },
+                "icon": "mdi:walk",
+                "name": "Activity",
+                "state": "Walking",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-50",
+                "name": "Battery Level",
+                "state": 52,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 52
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-50",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "8c:7f:3b:68:d9:90",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "ATTVdiTumS",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.3116455078125,
+                        -80.79780207946983
+                    ],
+                    "Name": "6943 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6943",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6943 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Initial",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 3193,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 6,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 9,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 4049,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "a07add38f032a01302294362cbee037d50681bfe86dd346af660d14b1d0e3749"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Walking"
+                    ]
+                },
+                "icon": "mdi:walk",
+                "name": "Activity",
+                "state": "Walking",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging",
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 68,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 68,
+                    "Low Power Mode": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "BSSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_connectivity_cellular_provider": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "N/A",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "Cellular Provider",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_cellular_provider",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_connectivity_connection_type": {
+                "added": true,
+                "attributes": {
+                    "Cellular Technology": "4G"
+                },
+                "icon": "mdi:signal",
+                "name": "Connection Type",
+                "state": "Cellular",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "AT&T",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "310",
+                    "Mobile Network Code": "410"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "AT&T",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "SSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "NC",
+                    "Areas Of Interest": "N/A",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Inland Water": "N/A",
+                    "Locality": "Charlotte",
+                    "Location": [
+                        35.311553955078125,
+                        -80.79781911601425
+                    ],
+                    "Name": "6925 Brachnell View Dr",
+                    "Ocean": "N/A",
+                    "Postal Code": "28269",
+                    "Sub Administrative Area": "Mecklenburg",
+                    "Sub Locality": "Rockwell Park/Hemphill Heights",
+                    "Sub Thoroughfare": "6925",
+                    "Thoroughfare": "Brachnell View Dr",
+                    "Time Zone": "America/New_York",
+                    "Zones": [
+                        "Home"
+                    ]
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "6925 Brachnell View Dr\nCharlotte NC 28269\nUnited States",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Geographic Region Entered",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 5057,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-up",
+                "name": "Floors Ascended",
+                "state": 2,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:stairs-down",
+                "name": "Floors Descended",
+                "state": 4,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 7089,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            },
+            "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d_storage": {
+                "added": true,
+                "attributes": {
+                    "Available": "108.71 GB",
+                    "Available (Important)": "120.20 GB",
+                    "Available (Opportunistic)": "118.92 GB",
+                    "Total": "255.94 GB"
+                },
+                "icon": "mdi:database",
+                "name": "Storage",
+                "state": "46.46",
+                "type": "sensor",
+                "unique_id": "storage",
+                "unit_of_measurement": "% available",
+                "webhook_id": "eb54e7a01d91d7a112ef0d7ee741c33cfc0802070c7eef7aa9e9d04dc61f071d"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

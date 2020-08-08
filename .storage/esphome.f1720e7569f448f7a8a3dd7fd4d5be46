@@ -1,0 +1,149 @@
+{
+    "data": {
+        "device_info": {
+            "compilation_time": "Aug  7 2020, 13:00:10",
+            "esphome_version": "1.14.5",
+            "has_deep_sleep": false,
+            "mac_address": "F0:08:D1:C7:86:74",
+            "model": "MH ET LIVE ESP32DevKIT",
+            "name": "temperature2",
+            "uses_password": false
+        },
+        "sensor": [
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:thermometer",
+                "key": 3442512522,
+                "name": "Office Temperature",
+                "object_id": "office_temperature",
+                "unique_id": "temperature2sensoroffice_temperature",
+                "unit_of_measurement": "\u00b0C"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:thermometer",
+                "key": 4139085572,
+                "name": "Bedroom Temperature",
+                "object_id": "bedroom_temperature",
+                "unique_id": "temperature2sensorbedroom_temperature",
+                "unit_of_measurement": "\u00b0C"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:thermometer",
+                "key": 2894606572,
+                "name": "Bathroom Temperature",
+                "object_id": "bathroom_temperature",
+                "unique_id": "temperature2sensorbathroom_temperature",
+                "unit_of_measurement": "\u00b0C"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:thermometer",
+                "key": 2911015259,
+                "name": "Dining Room Temperature",
+                "object_id": "dining_room_temperature",
+                "unique_id": "temperature2sensordining_room_temperature",
+                "unit_of_measurement": "\u00b0C"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:water-percent",
+                "key": 3096986643,
+                "name": "Office Humidity",
+                "object_id": "office_humidity",
+                "unique_id": "temperature2sensoroffice_humidity",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:water-percent",
+                "key": 655344241,
+                "name": "Bedroom Humidity",
+                "object_id": "bedroom_humidity",
+                "unique_id": "temperature2sensorbedroom_humidity",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:water-percent",
+                "key": 3493367305,
+                "name": "Bathroom Humidity",
+                "object_id": "bathroom_humidity",
+                "unique_id": "temperature2sensorbathroom_humidity",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 1,
+                "force_update": false,
+                "icon": "mdi:water-percent",
+                "key": 4094452900,
+                "name": "Dining Room Humidity",
+                "object_id": "dining_room_humidity",
+                "unique_id": "temperature2sensordining_room_humidity",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 0,
+                "force_update": false,
+                "icon": "mdi:battery",
+                "key": 3491991896,
+                "name": "Office Battery Level",
+                "object_id": "office_battery_level",
+                "unique_id": "temperature2sensoroffice_battery_level",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 0,
+                "force_update": false,
+                "icon": "mdi:battery",
+                "key": 3218457122,
+                "name": "Bedroom Battery Level",
+                "object_id": "bedroom_battery_level",
+                "unique_id": "temperature2sensorbedroom_battery_level",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 0,
+                "force_update": false,
+                "icon": "mdi:battery",
+                "key": 812064026,
+                "name": "Bathroom Battery Level",
+                "object_id": "bathroom_battery_level",
+                "unique_id": "temperature2sensorbathroom_battery_level",
+                "unit_of_measurement": "%"
+            },
+            {
+                "accuracy_decimals": 0,
+                "force_update": false,
+                "icon": "mdi:battery",
+                "key": 1273532629,
+                "name": "Dining Room Battery Level",
+                "object_id": "dining_room_battery_level",
+                "unique_id": "temperature2sensordining_room_battery_level",
+                "unit_of_measurement": "%"
+            }
+        ],
+        "services": [],
+        "switch": [
+            {
+                "assumed_state": false,
+                "icon": "mdi:restart",
+                "key": 1693755046,
+                "name": "test_temperature Restart",
+                "object_id": "test_temperature_restart",
+                "unique_id": "temperature2switchtest_temperature_restart"
+            }
+        ],
+        "text_sensor": []
+    },
+    "key": "esphome.f1720e7569f448f7a8a3dd7fd4d5be46",
+    "version": 1
+}

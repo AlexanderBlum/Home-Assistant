@@ -1,0 +1,308 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Alex",
+                    "id": "b1caef4ff83644d097ca7c1405efe949",
+                    "source": "person.alex",
+                    "user_id": "a353251753e24961b929a77d107486f9"
+                },
+                "context": {
+                    "id": "63defe2ba3924e99bb6375c268a29163",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.alex",
+                "last_changed": "2020-08-08T00:11:29.663809+00:00",
+                "last_updated": "2020-08-08T00:11:29.663809+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 0",
+                    "id": "Bathroom Morning Space Heater",
+                    "last_triggered": "2020-08-07T10:20:00.009801+00:00",
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "bfa3db3cc9664462be1979eb08f5496c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_0",
+                "last_changed": "2020-08-08T00:11:40.417215+00:00",
+                "last_updated": "2020-08-08T00:11:40.417215+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 1",
+                    "id": "Living Room Morning Lights",
+                    "last_triggered": "2020-08-07T10:20:00.012263+00:00",
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "3a4803403e3046a4a749db3e475de1b7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_1",
+                "last_changed": "2020-08-08T00:11:40.418412+00:00",
+                "last_updated": "2020-08-08T00:11:40.418412+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 2",
+                    "id": "Bedroom Humidifier",
+                    "last_triggered": "2020-08-07T01:30:00.008220+00:00",
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "92ff27525f8044468fe7dddbc5514e45",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_2",
+                "last_changed": "2020-08-08T00:11:40.419517+00:00",
+                "last_updated": "2020-08-08T00:11:40.419517+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 3",
+                    "id": "EPO Leave Work",
+                    "last_triggered": "2020-02-27T16:51:39.467539+00:00",
+                    "mode": "single"
+                },
+                "context": {
+                    "id": "bd66dd40e3c84450967c0e868f40bf65",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_3",
+                "last_changed": "2020-08-08T00:11:40.420653+00:00",
+                "last_updated": "2020-08-08T00:11:40.420653+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "EPO Light"
+                },
+                "context": {
+                    "id": "9a8b9778d8ee4b0c99cbec6422cd07af",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.epo_light",
+                "last_changed": "2020-08-08T00:11:43.508418+00:00",
+                "last_updated": "2020-08-08T00:11:43.508418+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Blum Light"
+                },
+                "context": {
+                    "id": "20d349d47e2b4d53bd3bc451e322ecd3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.blum_light",
+                "last_changed": "2020-08-08T00:11:45.032958+00:00",
+                "last_updated": "2020-08-08T00:11:45.032958+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Overhead Light"
+                },
+                "context": {
+                    "id": "aea9f961bfbb4eefaec84e8d0c23a4c7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.overhead_light",
+                "last_changed": "2020-08-08T00:11:45.288080+00:00",
+                "last_updated": "2020-08-08T00:11:45.288080+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Overhead Fan"
+                },
+                "context": {
+                    "id": "dd763cb37c6745fcac889fe544ac4486",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.overhead_fan",
+                "last_changed": "2020-08-08T00:11:47.136385+00:00",
+                "last_updated": "2020-08-08T00:11:47.136385+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Humidifier"
+                },
+                "context": {
+                    "id": "b587b4c3f5e545fdab2ac8671b852283",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.humidifier",
+                "last_changed": "2020-08-08T00:11:47.337351+00:00",
+                "last_updated": "2020-08-08T00:11:47.337351+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Chandelier"
+                },
+                "context": {
+                    "id": "297c9aa30c1144f8940bfe5f216221ec",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.chandelier",
+                "last_changed": "2020-08-08T00:11:48.389781+00:00",
+                "last_updated": "2020-08-08T00:11:48.389781+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Lamp"
+                },
+                "context": {
+                    "id": "dfe8f77f1b7148ea86d60ba3986b95d7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.lamp",
+                "last_changed": "2020-08-08T00:11:48.571055+00:00",
+                "last_updated": "2020-08-08T00:11:48.571055+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Foyer Light"
+                },
+                "context": {
+                    "id": "51478ffc89b4474ca1885485933ce154",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.foyer_light",
+                "last_changed": "2020-08-08T00:11:48.774975+00:00",
+                "last_updated": "2020-08-08T00:11:48.774975+00:00",
+                "state": "unavailable"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 246.06025015588426,
+                    "battery_level": 68,
+                    "friendly_name": "Elisabeth Blum",
+                    "gps_accuracy": 65,
+                    "latitude": 35.31158447265625,
+                    "longitude": -80.79779084410326,
+                    "source_type": "gps",
+                    "vertical_accuracy": 9
+                },
+                "context": {
+                    "id": "0cebf8fd895d47c7b92d98b5ee3fb9b8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.elisabeth_blum",
+                "last_changed": "2020-08-08T00:11:48.827261+00:00",
+                "last_updated": "2020-08-08T00:11:48.827261+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 234.9978790283203,
+                    "battery_level": 68,
+                    "friendly_name": "Alexander\u2019s iPhone",
+                    "gps_accuracy": 65,
+                    "latitude": 35.311553955078125,
+                    "longitude": -80.79781911601425,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
+                },
+                "context": {
+                    "id": "56726c506e2540c5a2549177fd530825",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.alexanders_iphone",
+                "last_changed": "2020-08-08T00:11:48.851502+00:00",
+                "last_updated": "2020-08-08T00:11:48.851502+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-08-08T00:11:52.609619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Porch Light"
+                },
+                "context": {
+                    "id": "624a00d7f2eb48f793d5e9a30a9448a7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.porch_light",
+                "last_changed": "2020-08-08T00:11:48.864081+00:00",
+                "last_updated": "2020-08-08T00:11:48.864081+00:00",
+                "state": "off"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

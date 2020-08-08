@@ -1,0 +1,55 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+cloud:
+
+#http:
+#  base_url: https://blumhassio.duckdns.org:8123
+#  ssl_certificate: /ssl/fullchain.pem
+#  ssl_key: /ssl/privkey.pem
+
+device_tracker:
+  - platform: bluetooth_le_tracker
+  
+sensor:
+  - platform: mitemp_bt
+    whitelist:
+     - '58:2D:34:3B:03:09'
+     - '58:2D:34:3B:04:49'
+    hci_interface: 0
+     
+logger:
+  default: warn
+  logs:
+    custom_components.mitemp_bt: debug
+    
+# Text to speech
+tts:
+  - platform: google_translate
+
+frontend:
+  themes: !include_dir_merge_named themes
+  
+mqtt:
+    broker: 192.168.1.209
+    username: !secret mqtt_username
+    password: !secret mqtt_password    
+    
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+switch: !include switches.yaml
+zone: !include zones.yaml
+
+ios:   
+
+homekit:
+  
+#google_assistant:
+#  project_id: home-assistant-262e9
+#  api_key: AIzaSyAR_UoEw7WZGOb_MW8MTOVR6bCis4DAYb4
+#  exposed_domains:
+#    - switches

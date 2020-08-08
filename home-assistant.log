@@ -1,0 +1,184 @@
+2020-08-07 20:11:24 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-08-07 20:11:36 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for mitemp_bt which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-08-07 20:11:37 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Starting
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:11:38 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] 0 encryptors mac:key pairs loaded.
+2020-08-07 20:11:38 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] 2 whitelist item(s) loaded.
+2020-08-07 20:11:38 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:11:38 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:11:38 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:11:39 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:11:39 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] First run, skip parsing.
+2020-08-07 20:11:42 ERROR (MainThread) [snitun.client.client_peer] Challenge/Response error with SniTun server
+2020-08-07 20:11:42 ERROR (MainThread) [hass_nabucasa.remote] Connection problem to snitun server
+2020-08-07 20:11:47 WARNING (SyncWorker_2) [homeassistant.components.bluetooth_le_tracker.device_tracker] No Bluetooth LE devices to track!
+2020-08-07 20:11:48 ERROR (MainThread) [homeassistant.components.device_tracker] Error setting up platform legacy
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:12:39 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:12:39 DEBUG (Thread-2) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:12:39 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:12:39 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:12:39 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:12:39 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:12:39 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:12:40 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Sensor 582D343B0309 not yet ready for update
+2020-08-07 20:12:40 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Sensor 582D343B0309 not yet ready for update
+2020-08-07 20:12:40 DEBUG (SyncWorker_4) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2026 hci events, 1 xiaomi devices.
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:13:40 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:13:40 DEBUG (Thread-26) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:13:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:13:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:13:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:13:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:13:40 DEBUG (SyncWorker_0) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2582 hci events, 1 xiaomi devices.
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:14:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:14:40 DEBUG (Thread-31) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:14:40 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:14:40 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:14:40 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:14:40 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:14:40 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:14:41 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2296 hci events, 1 xiaomi devices.
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:15:41 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:15:41 DEBUG (Thread-36) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:15:41 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:15:41 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:15:41 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:15:41 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:15:41 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2274 hci events, 1 xiaomi devices.
+2020-08-07 20:16:41 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:16:41 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:16:42 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:16:42 DEBUG (Thread-37) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:16:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:16:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:16:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:16:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:16:42 DEBUG (SyncWorker_7) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2320 hci events, 1 xiaomi devices.
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:17:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:17:42 DEBUG (Thread-40) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:17:42 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:17:42 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:17:42 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:17:42 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:17:42 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:17:43 DEBUG (SyncWorker_2) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2478 hci events, 1 xiaomi devices.
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:18:43 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:18:43 DEBUG (Thread-43) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:18:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:18:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:18:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:18:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:18:43 DEBUG (SyncWorker_1) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2350 hci events, 1 xiaomi devices.
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:19:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:19:43 DEBUG (Thread-46) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:19:43 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:19:43 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:19:43 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:19:43 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:19:43 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:19:44 DEBUG (SyncWorker_5) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2255 hci events, 1 xiaomi devices.
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] update_ble called
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Discovering Bluetooth LE devices
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Time to analyze...
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Getting data from HCIdump thread
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: joining
+2020-08-07 20:20:44 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: main event_loop stopped, finishing
+2020-08-07 20:20:44 DEBUG (Thread-49) [custom_components.mitemp_bt.sensor] HCIdump thread: Run finished
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: joined
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Spawning HCIdump thread(s).
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: Init
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump thread: Init finished
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Starting HCIdump thread for hci0
+2020-08-07 20:20:44 DEBUG (Thread-52) [custom_components.mitemp_bt.sensor] HCIdump thread: Run
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] HCIdump threads count = 1
+2020-08-07 20:20:44 DEBUG (Thread-52) [custom_components.mitemp_bt.sensor] HCIdump thread: Connection
+2020-08-07 20:20:44 DEBUG (Thread-52) [custom_components.mitemp_bt.sensor] HCIdump thread: Connected
+2020-08-07 20:20:44 DEBUG (Thread-52) [custom_components.mitemp_bt.sensor] HCIdump thread: start main event_loop
+2020-08-07 20:20:44 DEBUG (SyncWorker_3) [custom_components.mitemp_bt.sensor] Finished. Parsed: 2155 hci events, 1 xiaomi devices.

@@ -1,0 +1,77 @@
+esphome:
+  name: thermostat1
+  platform: ESP32
+  board: mhetesp32devkit
+
+wifi:
+  ssid: "ATTVdiTumS"
+  password: "%rbbuv+s=a+y"
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+esp32_ble_tracker:
+
+sensor:
+  - platform: xiaomi_lywsdcgq
+    mac_address: 58:2D:34:3B:02:A4
+    temperature:
+      name: "Thermostat Temperature"
+      id: thermostat_temp
+      
+switch:
+  - platform: gpio
+    pin: GPIO22
+    id: heater
+  - platform: template
+    icon: "mdi:arrow-up-down-bold-outline"
+    name: "Heater Switch"    
+    turn_on_action:
+      - switch.turn_on: heater
+    turn_off_action:
+      - switch.turn_off: heater
+  - platform: gpio
+    pin: GPIO17
+    id: ac
+  - platform: template
+    icon: "mdi:arrow-up-down-bold-outline"
+    name: "AC Switch"    
+    turn_on_action:
+      - switch.turn_on: ac
+    turn_off_action:
+      - switch.turn_off: ac
+  - platform: gpio
+    pin: GPIO21
+    id: fan
+  - platform: template
+    icon: "mdi:arrow-up-down-bold-outline"
+    name: "Fan Switch"    
+    turn_on_action:
+      - switch.turn_on: fan
+    turn_off_action:
+      - switch.turn_off: fan      
+
+climate:
+  - platform: bang_bang
+    name: 'temp controller'
+    id: temp_control
+    sensor: thermostat_temp
+    default_target_temperature_low: 20 °C
+    default_target_temperature_high: 22 °C
+    heat_action:
+      - switch.turn_off: ac    
+      - switch.turn_on: heater
+      - switch.turn_on: fan
+    cool_action:
+      - switch.turn_off: heater      
+      - switch.turn_on: ac   
+      - switch.turn_on: fan      
+    idle_action:
+      - switch.turn_off: heater
+      - switch.turn_off: fan
+      - switch.turn_off: ac

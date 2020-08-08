@@ -1,0 +1,25 @@
+master_bedroom:
+  name: Master Bedroom
+  entities:
+    - switch.epo_light
+    - switch.blum_light
+    - switch.space_heater
+    - switch.dehumifier
+living_room:
+  name: Living Room
+  entities:
+    - switch.chandelier
+    
+bedroom_lights:
+  name: Bedroom Lights
+  entities:
+    - switch.epo_light
+    - switch.blum_light
+    
+living_room_lights:
+  name: Bedroom Lights
+  entities:
+    - switch.chandelier
+    - switch.foyer_light
+    - switch.lamp
+    - switch.overhead_light

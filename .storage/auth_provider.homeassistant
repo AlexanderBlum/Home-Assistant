@@ -1,0 +1,16 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJEhMM05OR0xkam11MjltVzB3YUhxc09pdUVSaFdYcHEvZDJGWXZDMkNBWVBhVW14TXJRT0Vl",
+                "username": "blumsky1985"
+            },
+            {
+                "password": "JDJiJDEyJEtjSFdsUmtKcmJoWVR6UVZoQ1BONS5kQno0ZkM2bU9Hc0ZNd0huNkJ3elhFRnk5TkZER00u",
+                "username": "blumphone"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

@@ -1,0 +1,56 @@
+{
+    "data": {
+        "binary_sensor": [
+            {
+                "device_class": "garage_door",
+                "is_status_binary_sensor": false,
+                "key": 3253604918,
+                "name": "Garage Door Closed Reed Switch",
+                "object_id": "garage_door_closed_reed_switch",
+                "unique_id": "garagedoorbinary_sensorgarage_door_closed_reed_switch"
+            },
+            {
+                "device_class": "garage_door",
+                "is_status_binary_sensor": false,
+                "key": 3617872142,
+                "name": "Garage Door Open Reed Switch",
+                "object_id": "garage_door_open_reed_switch",
+                "unique_id": "garagedoorbinary_sensorgarage_door_open_reed_switch"
+            }
+        ],
+        "cover": [
+            {
+                "assumed_state": true,
+                "device_class": "garage",
+                "key": 1402501725,
+                "name": "Garage Door",
+                "object_id": "garage_door",
+                "supports_position": false,
+                "supports_tilt": false,
+                "unique_id": "garagedoorcovergarage_door"
+            }
+        ],
+        "device_info": {
+            "compilation_time": "Jun 30 2020, 10:07:18",
+            "esphome_version": "1.14.4",
+            "has_deep_sleep": false,
+            "mac_address": "4C:11:AE:00:1E:2D",
+            "model": "PLATFORMIO_ESP01_1M",
+            "name": "garagedoor",
+            "uses_password": false
+        },
+        "services": [],
+        "switch": [
+            {
+                "assumed_state": false,
+                "icon": "mdi:arrow-up-down-bold-outline",
+                "key": 632750707,
+                "name": "Blum Garage Control Relay",
+                "object_id": "blum_garage_control_relay",
+                "unique_id": "garagedoorswitchblum_garage_control_relay"
+            }
+        ]
+    },
+    "key": "esphome.94462fb239a844bfb606c2b8f944e6bb",
+    "version": 1
+}

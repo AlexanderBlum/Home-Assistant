@@ -1,0 +1,20 @@
+close_garage_door:
+  alias: close_garage_door
+  sequence:
+  - data: {}
+    entity_id: cover.garage_door
+    service: cover.close_cover
+
+open_garage_door:
+  alias: open_garage_door
+  sequence:
+  - data: {}
+    entity_id: cover.garage_door
+    service: cover.open_cover
+
+stop_garage_door:
+  alias: stop_garage_door
+  sequence:
+  - data: {}
+    entity_id: cover.garage_door
+    service: cover.stop_cover

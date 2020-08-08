@@ -1,0 +1,73 @@
+esphome:
+  name: temperature2
+  platform: ESP32
+  board: mhetesp32devkit
+
+wifi:
+  ssid: "ATTVdiTumS"
+  password: "%rbbuv+s=a+y"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Temperature1 Fallback Hotspot"
+    password: "kHcn5OfRn4XG"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+esp32_ble_tracker:
+
+sensor:
+  - platform: xiaomi_lywsdcgq
+    mac_address: 58:2D:34:3B:02:A4
+    temperature:
+      name: "Office Temperature"
+    humidity:
+      name: "Office Humidity"
+    battery_level:
+      name: "Office Battery Level"
+  - platform: xiaomi_lywsdcgq
+    mac_address: 58:2D:34:3B:02:49
+    temperature:
+      name: "Bedroom Temperature"
+    humidity:
+      name: "Bedroom Humidity"
+    battery_level:
+      name: "Bedroom Battery Level"
+  - platform: xiaomi_lywsdcgq
+    mac_address: 58:2D:34:3B:03:09
+    temperature:
+      name: "Bathroom Temperature"
+    humidity:
+      name: "Bathroom Humidity"
+    battery_level:
+      name: "Bathroom Battery Level"    
+  - platform: xiaomi_lywsdcgq
+    mac_address: 58:2D:34:3B:02:9A
+    temperature:
+      name: "Dining Room Temperature"
+    humidity:
+      name: "Dining Room Humidity"
+    battery_level:
+      name: "Dining Room Battery Level"      
+      
+time:
+  - platform: homeassistant
+    on_time:
+      - seconds: 0
+        minutes: 0
+        hours: 4
+        days_of_week: MON-SUN
+        then:
+           - switch.toggle: restart_switch
+switch:
+  - platform: restart
+    name: "test_temperature Restart"
+    id: restart_switch      
